@@ -1,0 +1,376 @@
+*
+{
+	margin:0px auto;
+	padding: 0px;
+}
+.one
+{
+	padding-top: 10px;
+	width: 100%;
+	height: 600px;
+	background-position: center center;
+	animation: animate 16s ease-in-out infinite;
+	background-size: cover;	
+}
+
+@keyframes animate{
+	0%,100%{
+		background-image: url("20.jpg");
+	}
+	25%{
+		background-image: url("21.jpg");
+	}
+	50%{
+		background-image: url("22.jpg");
+	}
+	75%{
+		background-image: url("2.jpg");
+	}
+}
+
+.search-box
+{
+ position: absolute;
+ top: 10%;
+ left: 10%;
+ //float: right;
+ transform: translate(-50%,-50%);
+ height: 40px;
+ padding: 10px;
+ border-radius: 40px;
+ background: #2f3640;		
+}
+.search-box:hover
+{
+	box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+}
+.search-box:hover > .search-txt
+{
+	width: 200px;
+	padding: 0 6px;
+	//box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+}
+.search-box:hover > .search-btn
+{
+	//box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+}
+.search-btn
+{   float: right;
+	color: #e84118;
+	width: 30px;
+	height: 40px;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #2f3640;
+	//margin-bottom: 20px;
+	transition: 0.4s;
+	text-align: center;
+	text-decoration: none;
+	font-size: 30px;
+}
+.search-txt
+{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	width:0px;
+}
+.two h1,h2
+{
+	text-align: center;
+	margin-top: 60px;
+	font-size: 60px;
+
+}
+.two h1
+{
+	color: blue;
+	text-shadow: 5px 5px 5px pink;	
+}
+.two h2
+{
+	color: red;
+	text-shadow: 1px 2px 20px white;
+}
+.three
+{
+
+	text-align: center ;
+	margin-top: 60px;
+	//cursor: pointer;
+	//box-shadow: inset 0 0 20px blue;
+	//font-size: 20px;
+
+}
+.three input
+{
+	font-size: 15px;
+	width: 150px;
+	height: 40px;
+	background-color: red;
+	box-shadow: 2px 2px 2px black;
+	color: white;
+	cursor: pointer;
+}
+.three input:hover
+{
+	background-color: blue;
+	color: red;
+	box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+}
+.four
+{
+	padding-top: 10px;
+	width: 100%;
+	height: 1400px;
+	background-color: blue;
+	background-image: url("27.jpg");
+	background-position: center center;
+}
+.four h3
+{
+	margin-top: 30px;
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 4px 4px 4px red;
+	color: white;
+}
+.four h4:hover
+{
+	cursor: pointer;
+	color: blue;
+}
+.five
+{
+	width: 1200px;
+	height: auto;
+	background-color: 20B2AA;
+	margin-top: 10px;
+	display: flex;
+
+	}
+
+.five section
+{
+	flex: 1;
+	padding: 10px;
+	//border: 1px solid black;
+	overflow: hidden;
+}
+.five img
+{
+	width: 100%;
+	height: auto;
+	border: 2px solid blue;
+	box-shadow: inset 0 2px 30px blue;
+	transition-duration: 1s;
+}
+.five img:hover
+{
+	transform:scale(1.5,1.5);
+	transition-duration:1s;
+	cursor: pointer;
+
+}
+.five p
+{
+	border: 2px solid blue;
+	box-shadow: inset 2px 2px 30px blue;
+	width: 100%;
+	height: auto;
+}
+.four h4
+{
+	text-align: center;
+	font-size: 30px;
+	color: pink;
+	text-shadow: 2px 2px 2px black;
+}
+.six
+{
+	width: 1200px;
+	height: auto;
+	background-color: 20B2AA;
+	margin-top: 10px;
+	display: flex;
+}
+.six section
+{
+	flex: 1;
+	padding: 10px;
+	overflow: hidden;
+}
+.six img
+{
+	width: 100%;
+	height: auto;
+	border: 2px solid red;
+	box-shadow: inset 0 2px 30px red;
+	transition-duration: 1s;
+}
+.six img:hover
+{
+	transform:scale(1.5,1.5);
+	transition-duration:1s;
+	cursor: pointer;
+}
+.six p
+{
+	border: 2px solid red;
+	box-shadow: inset 2px 2px 30px red;
+	width: 100%;
+	height: 330px;
+	overflow: hidden;
+}
+.four h5
+{
+	text-align: center;
+	font-size: 30px;
+	color: pink;
+	text-shadow: 2px 2px 2px black;
+}
+.seven
+{
+	width: 1200px;
+	height: auto;
+	background-color: 20B2AA;
+	margin-top: 10px;
+	display: flex;
+}
+.seven section
+{
+	flex: 1;
+	padding: 10px;
+	overflow: hidden;
+}
+.seven img
+{
+	width: 100%;
+	height: auto;
+	border: 2px solid black;
+	box-shadow: inset 0 2px 30px black;
+	transition-duration: 1s;
+}
+.seven img:hover
+{
+	transform:scale(1.5,1.5);
+	transition-duration:1s;
+	cursor: pointer;
+}
+.seven p
+{
+	border: 2px solid black;
+	box-shadow: inset 2px 2px 40px black;
+	width: 100%;
+	height: 330px;
+	overflow: hidden;
+}
+.four h6
+{
+	text-align: center;
+	font-size: 30px;
+	color: pink;
+	text-shadow: 2px 2px 2px black;
+}
+.bg-modal
+{
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+
+}
+.modal-content
+{
+	width: 500px;
+	height: 300px;
+	background-color: 008B8B;
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+}
+.modal-content h7
+{
+    font-size: 40px;
+    text-shadow: 2px 2px 2px red;
+    color: blue;
+}
+input
+{
+	height: 30px;
+	width: 50%;
+	display: block;
+	margin: 15px auto;
+	border-radius: 4px;
+	font-size: 20px;
+}
+button
+{
+	height: 30px;
+	width: 90px;
+	color: red;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: pink;
+}
+.close
+{
+	//width: 50px;
+	//height: 40px;
+	position: absolute;
+	top: 0;
+	right: 14px;
+	font-size: 42px;
+	transform: rotate(45deg);
+	//cursor: pointer;
+	border-radius: 4px;
+	color: white;
+	
+
+}
+.close:hover
+{
+	color: red;
+	cursor: pointer;
+}
+
+.sign-up
+{
+	position: absolute;
+	top: 55%;
+	left: 43%;
+}
+.sign-up h
+{
+	font-size: 40px;
+    text-shadow: 2px 2px 2px red;
+    color: blue;
+    width: 50%
+}
+#btn
+ {
+ 	height: 40px;
+ 	font-size: 20px;
+ 	position: absolute;
+ 	top: 130%;
+ 	left: 20%;
+ 	//box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+ 	background-color: pink;
+ 	cursor: pointer;
+ }
+ #btn:hover
+ {
+ 	box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+ }
