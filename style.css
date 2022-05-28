@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+*
+{
+	margin:0 auto;
+	padding:0;
+}
+
+.header
+{
+	width:100%;
+	height:50px;
+	border:1px solid gray;
+	background-color:black;
+    
+
+}
+.header li {
+    width: 200px;
+	height:auto;
+    display: flex;
+    float: left;
+    padding: 20px;
+  
+}
+.header li a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+.header li :hover {
+    color:red;
+}
+.head h1 {
+    padding: 40px;
+    width: auto;
+    font-size: 100px;
+    text-align: center;
+    background-color: rebeccapurple;
+    
+}
+.head2 h2 {
+    padding: 20px 30px;
+    margin-top: 10px;
+    max-width: 900px;
+    text-align: center;
+    font-size: 50px;
+    height: auto;
+}
+#music-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#music-content div {
+    margin: 30px;
+    display: block;
+}
+.album h3 {
+    text-align: center;
+    display: block;
+    margin-bottom: 25px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#image-content {
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+}
+ .prod-image {
+    transform-origin: center center;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    transition: ease-in 0.5s;
+    filter: brightness(100%);
+    
+}
+#prod-details {
+    font-size: 25px;
+}
+#item-button {
+    float: right;
+    width: auto;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+}
+.head2 {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+.head3 {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+.head3 h2 {
+    padding: 20px 30px;
+    margin-top: 10px;
+    max-width: 900px;
+    text-align: center;
+    font-size: 50px;
+    height: auto;
+}
+#merch-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#merch-content div {
+    margin: 30px;
+    display: block;
+}
+.cart-btn {
+    display: flex;
+    padding: 15px;
+    background-color:rebeccapurple;
+    border: none;
+    border-radius: 7px;
+    margin: auto;
+    cursor: pointer;
+}
+.cart-btn1 {
+    text-decoration: none;
+    color: red;
+}
+
+#cart-holder {
+    margin: 0px;
+    position: fixed;
+    top: 50px;
+    height: 95%;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(177, 103, 103);
+    min-height: 50vh;
+}
+#cart-holder h4 {
+    margin: 20px 0px;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+}
+.close {
+    position: absolute;
+    cursor: pointer;
+    color: rgb(121, 117, 117);
+    top: 0;
+    right: 0;
+    margin: 20px;
+    background: none;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid rgb(121, 117, 117);
+    border-radius: 7px;
+    padding: 5px;
+}
+.cart-row {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+}
+#colum {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.cart-item {
+    width: 45%;
+}
+.cart-price {
+    width: 20%;
+}
+.cart-quantity {
+    width: 35;
+}
+.cart-total {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 1.2rem;
+    margin: 20px;
+}
+.cart-total .total-title {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+.purchase-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    background: #56CCF2;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8%;
+    padding: -32px;
+    cursor: pointer;
+}
+.footer1 {
+    display: flex;
+    margin-top: 40px;
+    padding: 20px;
+    background: #56CCF2;
+}
+.footer-title {
+    text-align: center;
+    color: black;
+    width: 50%;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.footer-icons {
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-icons ul {
+    list-style: none;
+    display: flex;
+}
+.footer-icons li {
+    padding: 10px;
+    margin: 0px 20px;
+}
+.footer-icons i {
+    width: 30px;
+}
